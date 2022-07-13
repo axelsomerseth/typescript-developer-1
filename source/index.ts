@@ -13,3 +13,5 @@ console.log(five);
 console.log(firstName);
 
 // User-defined types
+
+export {};
