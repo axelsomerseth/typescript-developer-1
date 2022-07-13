@@ -1,0 +1,14 @@
+{
+  "name": "typescript-developer-1",
+  "version": "1.0.0",
+  "description": "A developer who is proficient programming in the TypeScript language.",
+  "main": "./out/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Axel Somerseth Cordova <axelsomerseth@gmail.com>",
+  "license": "MIT"
+}
