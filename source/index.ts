@@ -9,4 +9,7 @@ let voidVar: void;
 let nullVar: null;
 let undefinedVar: undefined;
 
+console.log(five);
+console.log(firstName);
+
 // User-defined types
