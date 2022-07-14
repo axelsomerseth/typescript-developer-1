@@ -1,14 +1,9 @@
-const presets = [
-  [
-    "@babel/preset-env",
-    {
-      targets: {
-        chrome: "48",
-      },
-    },
-  ],
-  "@babel/preset-typescript",
-];
+const presets = ["@babel/preset-env", "@babel/preset-typescript"];
+
 const plugins = [];
 
-module.exports = { presets, plugins };
+const targets = {
+  chrome: "48",
+};
+
+module.exports = { presets, plugins, targets };
