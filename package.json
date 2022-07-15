@@ -5,8 +5,7 @@
   "main": "./dist/index.js",
   "scripts": {
     "start": "ts-node ./source",
-    "build": "babel source --out-dir dist --extensions \".ts\" --delete-dir-on-start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel source --out-dir dist --extensions \".ts\" --delete-dir-on-start"
   },
   "keywords": [
     "typescript"
