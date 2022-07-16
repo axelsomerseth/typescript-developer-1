@@ -1,3 +1,5 @@
+import { hexToRGB } from "./utils/utils";
+
 /**
  * 		6. Utilize various datatypes in TypeScript:
  */
@@ -47,12 +49,12 @@ const inferredString = "this is a string";
 console.log("6.g", inferredString);
 
 // 6.h Type Casting: Use the as keyword or <> operator for type castings.
-const three = 3 as unknown;
-const threeStr = three as string;
+const three = 3;
+const threeStr = three as unknown as string;
 console.log("6.h threeStr: ", threeStr);
 
 // 6.i Difference between let and var
-const ONE: number = 1;
+var ONE: number = 1;
 let TWO: number = 2;
 
 // 6.j Const declaration
@@ -122,10 +124,16 @@ class Framework {
   language: string;
   version: string;
   license?: string;
-  constructor(name: string, language: string, version: string) {
+  constructor(
+    name: string,
+    language: string,
+    version: string,
+    license?: string
+  ) {
     this.name = name;
     this.language = language;
     this.version = version;
+    this.license = license;
   }
 }
 
